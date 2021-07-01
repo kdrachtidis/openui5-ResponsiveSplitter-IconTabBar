@@ -10,18 +10,18 @@
 
       <l:ResponsiveSplitter defaultPane="default">
         <l:PaneContainer>
-          <l:SplitPane requiredParentWidth="400"
+          <l:SplitPane
             id="default">
             <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Pane1" />
           </l:SplitPane>
-          <l:PaneContainer orientation="Vertical">
+          
             <l:SplitPane requiredParentWidth="600">
               <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Pane2" />
             </l:SplitPane>
-            <l:SplitPane requiredParentWidth="800">
+            <l:SplitPane>
               <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Pane3" />
             </l:SplitPane>
-          </l:PaneContainer>
+          
         </l:PaneContainer>
       </l:ResponsiveSplitter>
 

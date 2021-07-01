@@ -2,7 +2,28 @@
     height="100%"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page title="Right pane container, bottom split pane">
-
+    <Page showHeader="false">
+        <IconTabBar id="idIconTabBarMulti"
+            expanded="{device>/isNoPhone}"
+            class="sapUiResponsiveContentPadding">
+            <items>
+                <IconTabFilter icon="sap-icon://overview-chart"
+                    text="Source Data"
+                    design="Horizontal">
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://org-chart"
+                    text="Query Model"
+                    design="Horizontal">
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://switch-views"
+                    text="Perspectives"
+                    design="Horizontal">
+                </IconTabFilter>
+                <IconTabFilter icon="sap-icon://pie-chart"
+                    text="Summary"
+                    design="Horizontal">
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
     </Page>
 </mvc:View>
