@@ -8,19 +8,19 @@
             class="sapUiResponsiveContentPadding">
             <items>
                 <IconTabFilter icon="sap-icon://overview-chart"
-                    text="Source Data"
+                    text="Tab 1"
                     design="Horizontal">
                 </IconTabFilter>
                 <IconTabFilter icon="sap-icon://org-chart"
-                    text="Query Model"
+                    text="Tab 2"
                     design="Horizontal">
                 </IconTabFilter>
                 <IconTabFilter icon="sap-icon://switch-views"
-                    text="Perspectives"
+                    text="Tab 3"
                     design="Horizontal">
                 </IconTabFilter>
                 <IconTabFilter icon="sap-icon://pie-chart"
-                    text="Summary"
+                    text="tab 4"
                     design="Horizontal">
                 </IconTabFilter>
             </items>

@@ -2,7 +2,7 @@
     height="100%"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page title="Left pane container">
+    <Page title="Left pane">
 
     </Page>
 </mvc:View>

@@ -2,7 +2,7 @@
     height="100%"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page title="Right pane container, top split pane">
+    <Page title="Right pane">
 
     </Page>
 </mvc:View>
